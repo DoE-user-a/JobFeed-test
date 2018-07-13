@@ -53,7 +53,7 @@ git pull
 
 
 # PUSH to remote
-git push origin {branck-name} (Try to push only to a branch)
+git push origin {branch-name} (Try to push only to a branch)
 git push (works from local branch)
 
 # commit local
