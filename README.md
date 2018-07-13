@@ -1,4 +1,3 @@
-TEST -- COMMIT
 # JobFeed-test
 
 ### HTTPS
@@ -46,18 +45,20 @@ git push -u origin master
 
 ### My GIT commands
 
-### PULL INIT (first-time)
+# PULL INIT (first-time)
 git clone https://github.com/DoE-user-a/JobFeed-test.git <working-directory>
 
 
-### PULL (update)
+# PULL (update)
 git pull
 
 
-### PUSH to remote
-
+# PUSH to remote
 git push origin <branck-name> (Try to push only to a branch)
+git push (works from local branch)
 
 # commit local
+(you must know)
 
-### code commenting, branch naming
+# code commenting, branch naming
+(future)
