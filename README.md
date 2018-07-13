@@ -1,8 +1,6 @@
 # JobFeed-test
 
-########################
-### HTTPS
-########################
+#### HTTPS ############################################
 
 # URL
 
@@ -22,9 +20,7 @@ git push -u origin master
 git remote add origin https://github.com/DoE-user-a/JobFeed-test.git
 git push -u origin master
 
-########################
-### SSL
-########################
+#### SSL ##############################################
 
 # URL
 
@@ -45,13 +41,11 @@ git push -u origin master
 git remote add origin git@github.com:DoE-user-a/JobFeed-test.git
 git push -u origin master
 
+#### My GIT commands #################################
 
-########################
-### My GIT commands
-########################
 
 # PULL INIT (first-time)
-git clone https://github.com/DoE-user-a/JobFeed-test.git <working-directory>
+git clone https://github.com/DoE-user-a/JobFeed-test.git {working-directory}
 
 
 # PULL (update)
@@ -59,7 +53,7 @@ git pull
 
 
 # PUSH to remote
-git push origin <branck-name> (Try to push only to a branch)
+git push origin {branck-name} (Try to push only to a branch)
 git push (works from local branch)
 
 # commit local
