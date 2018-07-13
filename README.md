@@ -51,6 +51,8 @@ git clone https://github.com/DoE-user-a/JobFeed-test.git <working-directory>
 
 
 ### PULL (update)
+git pull
+
 
 ### PUSH to remote
 
