@@ -1,6 +1,8 @@
 # JobFeed-test
 
+########################
 ### HTTPS
+########################
 
 # URL
 
@@ -20,10 +22,11 @@ git push -u origin master
 git remote add origin https://github.com/DoE-user-a/JobFeed-test.git
 git push -u origin master
 
-
+########################
 ### SSL
+########################
 
-#URL
+# URL
 
 git@github.com:DoE-user-a/JobFeed-test.git
 
@@ -43,7 +46,9 @@ git remote add origin git@github.com:DoE-user-a/JobFeed-test.git
 git push -u origin master
 
 
+########################
 ### My GIT commands
+########################
 
 # PULL INIT (first-time)
 git clone https://github.com/DoE-user-a/JobFeed-test.git <working-directory>
