@@ -1,0 +1,49 @@
+@include foundation-xy-grid-classes(
+  $base-grid: true,
+  $margin-grid: true,
+  $padding-grid: true,
+  $block-grid: true,
+  $collapse: true,
+  $offset: true,
+  $vertical-grid: true,
+  $frame-grid: true
+);
+
+// float classes
+
+.full-width { width: 100%; }
+.full-height { height: 100%; }
+
+.float-left { float: left; }
+.float-right { float: right; }
+.clear-fix { clear: both; }
+
+
+// padding class
+
+.padding-right-15px { padding-right: 15px; }
+
+// IMPORTANT
+
+a, a:hover, a:focus {
+	color: #222;
+}
+
+
+/* JobFeed common */
+
+.button.JobFeed-btn {
+	background-color: #222;
+	font-size: 17px;
+	border-radius: 2px;
+	border: 1px solid #222;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.button.JobFeed-btn:hover {
+	background-color: #fff;
+	color: #222;
+}
+
+

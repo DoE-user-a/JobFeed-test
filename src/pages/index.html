@@ -1,0 +1,59 @@
+<div class="translucent-form-overlay">
+  <form>
+    <div class="row columns">
+      <label class="search-heading">Positions
+        <input class="search-input" type="text" placeholder="Enter keywords" />
+		<select class="search-input">
+			<option>Any Classification</option>
+			<option>Principal</option>
+			<option>Deputy Principal</option>
+			<option>Assistant Principal</option>
+			<option>Primary</option>
+			<option>English</option>
+			<option>Mathematics</option>
+			<option>Science</option>
+			<option>HSIE</option>
+			<option>PDHPE</option>
+			<option>TAS</option>
+			<option>Business Studies</option>
+			<option>Languages</option>
+			<option>Creative Arts</option>
+			<option>Special Education</option>
+			<option>Geography</option>
+		</select>
+      </label>
+    </div>
+    <div class="row columns">
+      <label>Where
+        <input id="id-current-location" class="search-input" type="text" placeholder="Enter Location" />
+      </label>
+    </div>
+    <div class="row columns">
+      <label>Job Type
+        <select class="search-input">
+			<option>All work types</option>
+			<option>Permanent</option>
+			<option>Temporary</option>
+			<option>SCO</option>
+		</select>
+      </label>
+    </div>
+    <div class="row">
+      <label class="columns small-12">Radius (KM)</label>
+      <div class="cell grid-x">
+          <div class="small-9 padding-right-15px">
+          	<div class="slider" data-slider data-initial-start="50" data-step="5">
+				<span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput2"></span>
+				<span class="slider-fill" data-slider-fill></span>
+			</div>
+          </div>
+          <div class="small-3">
+          	<input class="search-input" type="number" id="sliderOutput2" value="50">
+          </div>
+      </div>
+    </div>
+    <button type="button" class="primary button expanded JobFeed-btn">
+    	<i class="large fa fa-search"></i>&nbsp;Search
+    </button>
+ </form>
+</div>
