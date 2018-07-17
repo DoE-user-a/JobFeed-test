@@ -1,6 +1,12 @@
+<!--
+  17 Jul, 2018
+  JobFeed search form
 
+  TODO:
+  - banner (pull from remote with link)
+-->
 <div class="translucent-form-overlay">
-  <form name="input" action="result.html" method="get">
+  <form name="input" action="index-results.html" method="get">
     <div class="row columns margin-bottom-15px">
       <a href="https://placeholder.com"><img src="http://via.placeholder.com/250x60" style="width: 100%" /></a>
     </div>
@@ -35,29 +41,31 @@
     <div class="row columns">
       <label>Job Type
         <select class="search-input">
-			<option>All work types</option>
-			<option>Permanent</option>
-			<option>Temporary</option>
-			<option>SCO</option>
-		</select>
+          <option>All work types</option>
+          <option>Permanent</option>
+          <option>Temporary</option>
+          <option>SCO</option>
+        </select>
       </label>
     </div>
-    <div class="row">
+    <div class="rown columns">
       <label class="columns small-12">Radius (KM)</label>
       <div class="cell grid-x">
           <div class="small-9 padding-right-15px">
           	<div class="slider" data-slider data-initial-start="50" data-step="5">
-				<span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput2"></span>
-				<span class="slider-fill" data-slider-fill></span>
-			</div>
+              <span class="slider-handle"  data-slider-handle role="slider" tabindex="1" aria-controls="sliderOutput2"></span>
+              <span class="slider-fill" data-slider-fill></span>
+			       </div>
           </div>
           <div class="small-3">
           	<input class="search-input" type="number" id="sliderOutput2" value="50">
           </div>
       </div>
     </div>
-    <button type="submit" class="primary button expanded JobFeed-btn">
-    	<i class="large fa fa-search"></i>&nbsp;Search
-    </button>
+    <div class="rown columns">
+      <button type="submit" class="primary button expanded JobFeed-btn">
+        <i class="large fa fa-search"></i>&nbsp;Search
+      </button>
+    </div>
  </form>
 </div>

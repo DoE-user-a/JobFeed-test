@@ -9,46 +9,37 @@
   $frame-grid: true
 );
 
-// float classes
+
+// div full width and height
 
 .full-width { width: 100%; }
 .full-height { height: 100%; }
 
+
+// float classes : start
+
 .float-left { float: left; }
 .float-right { float: right; }
 .clear-fix { clear: both; }
+
+// float classes : end
+
+
 .display-block { display: block; }
+
+// custom colors
+
 .font-color-white { color : $white; }
 
+// link remove blue border
 .fix-visited { outline: 0; cursor: pointer; }
 
 
 // padding class
 
 .padding-right-15px { padding-right: 15px; }
+
+
+// margin class
+
 .margin-bottom-15px { margin-bottom: 15px; }
-
-// IMPORTANT
-
-a, a:hover, a:focus {
-	color: #222;
-}
-
-
-/* JobFeed common */
-
-.button.JobFeed-btn {
-	background-color: #222;
-	font-size: 19px;
-	border-radius: 2px;
-	border: 1px solid #222;
-	font-weight: bold;
-	letter-spacing: 1px;
-}
-
-.button.JobFeed-btn:hover {
-	background-color: #fff;
-	color: #222;
-}
-
-

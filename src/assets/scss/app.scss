@@ -53,24 +53,34 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+
+
+
+
 // MY CODES //
 
 @import 'components/building-blocks/app-dashboard-layout';
-
-// https://foundation.zurb.com/forum/posts/53597-please-help-installing-font-awesome
 
 @import 'font-awesome';
 
 /* my includes: start */
 
+
+// common classes for float, padding and margin
+
 @import 'components/common';
+
+
+// layout classes
 
 @import 'components/header';
 @import 'components/menu';
 @import 'components/search';
 
-// 11 July
-@import 'settings-jobboard';
+
+// JobFeed custom (controls, buttons, link, HTML customs)
+
+@import 'settings-JobFeed';
 
 
 /* my includes: end */
