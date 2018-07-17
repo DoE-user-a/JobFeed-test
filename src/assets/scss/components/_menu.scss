@@ -13,9 +13,17 @@
 	color: #fff;
 }
 
-
-
 .side-menu a {
 	color: #fff;
 	border-bottom: 1px solid $light-gray;
+}
+
+
+.app-dashboard-sidebar {
+	.app-dashboard-open-sidebar {
+		padding: 2rem 1rem .3em 1em;
+	}
+	.app-dashboard-close-sidebar {
+		padding: 2rem 1rem .3em 1em;
+	}
 }

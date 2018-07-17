@@ -22,7 +22,14 @@
     <div id="app-dashboard-sidebar" class="app-dashboard-sidebar position-right off-canvas off-canvas-absolute reveal-for-medium" data-off-canvas>
       <div class="app-dashboard-sidebar-title-area">
         <div class="app-dashboard-close-sidebar">
-          <h1 class="app-dashboard-sidebar-block-title">Menu</h1>
+          <div class="grid-x full-width">
+            <div class="cell small-6">
+              <h1 class="app-dashboard-sidebar-block-title float-left">Menu</h1>
+            </div>
+            <div class="cell small-6">
+              <button data-toggle="app-dashboard-sidebar" class="float-right font-color-white fix-visited"><i class="large fa fa-times"></i></button>
+            </div>
+          </div>
           <!-- Close button -->
           <button id="close-sidebar" data-app-dashboard-toggle-shrink class="app-dashboard-sidebar-close-button show-for-medium" aria-label="Close menu" type="button">
             <span aria-hidden="true"><a href="#"><i class="large fa fa-angle-double-left"></i></a></span>
